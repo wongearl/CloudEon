@@ -2,7 +2,7 @@ name: KYUUBI
 label: "Kyuubi"
 description: "分布式和多租户的SQL网关"
 version: 1.7.0
-dockerImage: "registry.cn-hangzhou.aliyuncs.com/udh/kyuubi:1.7.0"
+dockerImage: "registry.ailink.local/ailink.io/udh/kyuubi:1.7.0"
 dependencies:
     - "HDFS"
     - "ZOOKEEPER"

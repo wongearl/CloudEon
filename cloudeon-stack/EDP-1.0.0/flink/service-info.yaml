@@ -2,7 +2,7 @@ name: FLINK
 label: "Flink"
 description: "实时计算引擎"
 version: 1.15.4
-dockerImage: "registry.cn-hangzhou.aliyuncs.com/udh/flink:1.15.4"
+dockerImage: "registry.ailink.local/ailink.io/udh/flink:1.15.4"
 dependencies:
     - "HDFS"
     - "YARN"

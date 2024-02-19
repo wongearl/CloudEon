@@ -2,7 +2,7 @@ name: HUE
 label: "Hue"
 description: "用于数据库和数据仓库的开源 SQL 助手"
 version: 4.11.0
-dockerImage: "registry.cn-hangzhou.aliyuncs.com/udh/hue:4.11.0"
+dockerImage: "registry.ailink.local/ailink.io/hue:4.11.0"
 dependencies:
   - ZOOKEEPER
   - HDFS

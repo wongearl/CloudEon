@@ -14,4 +14,4 @@ mvn-install:
 .PHONY: build-image
 build-image:
 	cp -r cloudeon-assembly/target/cloudeon-assembly-v1.3.0-release ./docker
-	docker build -f docker/Dockerfile  --build-arg CLOUDEON_VERSION=v1.3.0 -t cloudeon:v1.3.0 ./docker
+	docker build -f docker/Dockerfile  --build-arg CLOUDEON_VERSION=v1.3.0 -t 172.11.0.6:30002/ailink.io/cloudeon:v1.3.0 ./docker

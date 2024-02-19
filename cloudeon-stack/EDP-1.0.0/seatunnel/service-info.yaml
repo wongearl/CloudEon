@@ -2,7 +2,7 @@ name: SEATUNNEL
 label: "Seatunnel"
 description: "海量数据同步引擎"
 version: 2.3.1
-dockerImage: "registry.cn-hangzhou.aliyuncs.com/udh/seatunnel:2.3.1"
+dockerImage: "registry.ailink.local/ailink.io/udh/seatunnel:2.3.1"
 dependencies:
     - "HDFS"
 

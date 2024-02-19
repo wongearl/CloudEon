@@ -2,7 +2,7 @@ name: FILEBEAT
 label: "Filebeat"
 description: "日志采集工具"
 version: 7.16.3
-dockerImage: "registry.cn-hangzhou.aliyuncs.com/udh/filebeat:7.16.3"
+dockerImage: "registry.ailink.local/ailink.io/udh/filebeat:7.16.3"
 dependencies:
     - "ELASTICSEARCH"
 
