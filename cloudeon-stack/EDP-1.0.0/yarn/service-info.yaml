@@ -2,7 +2,7 @@ name: YARN
 label: "YARN"
 description: "分布式计算资源调度"
 version: 3.3.4
-dockerImage: "registry.ailink.local/ailink.io/udh/hadoop:3.3.4"
+dockerImage: "registry.ailink.local:5000/ailink.io/udh/hadoop:3.3.4"
 dependencies:
   - "ZOOKEEPER"
   - "HDFS"

@@ -2,7 +2,7 @@ name: DINKY
 label: "DINKY"
 description: "实时计算平台"
 version: 0.7.3
-dockerImage: "registry.ailink.local/ailink.io/udh/dinky:0.7.3"
+dockerImage: "registry.ailink.local:5000/ailink.io/udh/dinky:0.7.3"
 dependencies:
   - "HDFS"
   - "YARN"

@@ -2,7 +2,7 @@ name: AMORO
 label: "Amoro"
 description: "数据湖管理平台"
 version: 0.5.0
-dockerImage: "registry.ailink.local/ailink.io/udh/amoro:0.5.0"
+dockerImage: "registry.ailink.local:5000/ailink.io/udh/amoro:0.5.0"
 dependencies:
   - ZOOKEEPER
   - HDFS

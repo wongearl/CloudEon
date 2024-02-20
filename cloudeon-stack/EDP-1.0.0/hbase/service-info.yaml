@@ -2,7 +2,7 @@ name: HBASE
 label: "Hbase"
 description: "分布式、可扩展、面向列的NoSQL数据库"
 version: 2.4.16
-dockerImage: "registry.ailink.local/ailink.io/udh/hbase:2.4.16"
+dockerImage: "registry.ailink.local:5000/ailink.io/udh/hbase:2.4.16"
 dependencies:
     - "HDFS"
     - "ZOOKEEPER"
